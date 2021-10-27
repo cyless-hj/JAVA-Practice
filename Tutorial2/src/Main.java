@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 		int intType = 100;
 		double doubleType = 50.5;
-		String stringType = "정현진";
+		String stringType = "정현진h";
 		
 		System.out.println(intType);
 		System.out.println(doubleType);
