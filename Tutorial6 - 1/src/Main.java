@@ -47,6 +47,18 @@ public class Main {
 			}
 			System.out.println();
 		}
+		
+		int count = 0;
+		
+		for(;;)
+		{
+			System.out.println("출력");
+			count++;
+			if(count == 10)
+			{
+				break; //break를 이용한 무한 루프 탈출
+			}
+		}
 	}
 
 }
