@@ -14,7 +14,7 @@ public class Main {
 			
 			if(heros[i] instanceof Warrior) 
 			{
-				Warrior temp = (Warrior) heros[i];
+				Warrior temp = (Warrior) heros[i];//heros[i]를 Warrior로 형변환 후 temp에 담는다.
 				temp.groundCutting();
 			}
 			else if(heros[i] instanceof Archer)
